@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 
 from .term_parser import TermParserFactory
-from .expressions.primitives import PrimitiveFactory, ParserElement, operatorPrecedence, opAssoc
-from .expressions.operators import *
-from .expressions.terms import *
+from plyse.expressions.primitives import PrimitiveFactory, ParserElement, operatorPrecedence, opAssoc
+from plyse.expressions.operators import *
+from plyse.expressions.terms import *
 
 
 class GrammarError(Exception):
